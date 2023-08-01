@@ -31,7 +31,7 @@ class _Card extends State<Card> {
     return LayoutBuilder(builder: (context, constraints) {
       return Container(
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: Colors.black,
           ),
           child: Stack(children: [
             Positioned(
@@ -112,7 +112,7 @@ class _Card extends State<Card> {
                                     fontSize: 20,
                                     fontWeight: FontWeight.w700,
                                     letterSpacing: 0,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   textAlign: TextAlign.left,
                                 )),
@@ -130,7 +130,7 @@ class _Card extends State<Card> {
                                     fontSize: 16,
                                     fontWeight: FontWeight.w400,
                                     letterSpacing: 0,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   textAlign: TextAlign.left,
                                 )),
